@@ -22,7 +22,7 @@ Read full stdin input (until EOF) and write to FILE
     # Check if destination is specified
     if arg_number == 1:
         print(
-            "You need to specify destination file. See 'sponge.py --help' for usage information"
+            "You need to specify a destination file. See 'sponge --help' for usage information"
         )
         sys.exit(1)
 
